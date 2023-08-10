@@ -1,0 +1,54 @@
+body {
+background-image: url(/assets/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.texto  {
+    text-align: center;
+    padding-top: 450px;
+}
+
+.texto2  {
+    text-align: center;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.round-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.menu {
+    font-weight: bold;
+    float: right;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.nome {
+    margin-top: 10px;
+}
+
+.nome a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
